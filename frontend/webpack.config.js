@@ -59,6 +59,6 @@ module.exports = {
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoEmitOnErrorsPlugin(),
     new TransferWebpackPlugin([{ from: 'src/public' }], '.'),
-    new webpack.DefinePlugin(GLOBALS),
+    // new webpack.DefinePlugin(GLOBALS),
   ],
 };
