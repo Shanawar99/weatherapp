@@ -19,5 +19,5 @@ services:
       - 8000:8000
     # volumes:
     #   - ./frontend/src:/frontend/src
-    # environment:
-    #     ENDPOINT: http://0.0.0.0:9000/api
+    environment:
+      - ENDPOINT
